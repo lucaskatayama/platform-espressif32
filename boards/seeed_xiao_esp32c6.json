@@ -5,7 +5,7 @@
       "-DARDUINO_XIAO_ESP32C6",
       "-DARDUINO_USB_CDC_ON_BOOT=1",
       "-DARDUINO_USB_MODE=1",
-      "-DI2C_NUM_1=LP_I2C"
+      "-DI2C_NUM_1=LP_I2C_NUM_0"
     ],
     "f_cpu": "160000000L",
     "f_flash": "80000000L",
