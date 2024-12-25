@@ -5,9 +5,7 @@
       "-DARDUINO_XIAO_ESP32C6",
       "-DARDUINO_USB_CDC_ON_BOOT=1",
       "-DARDUINO_USB_MODE=1",
-      "-DCONFIG_ULP_COPROC_ENABLED=y",
-      "-DCONFIG_ULP_COPROC_TYPE_LP_CORE=y",
-      "-DCONFIG_ULP_COPROC_RESERVE_MEM=4096"
+      "-DI2C_NUM_1=LP_I2C"
     ],
     "f_cpu": "160000000L",
     "f_flash": "80000000L",
